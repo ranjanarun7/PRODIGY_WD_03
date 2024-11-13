@@ -1,0 +1,154 @@
+body{
+  background-color: #548687;
+  text-align: center;
+}
+.container{
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.game{
+  height: 60vmin;
+  width: 60vmin;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5vmin;
+}
+.switchBtn{
+  height: 50px;
+  width: 300px;
+  font-size:medium;
+  font-weight: bolder;
+  border-radius: 10px;
+  cursor: pointer;
+}
+.box{
+  height: 18vmin;
+  width: 18vmin;
+  border-radius: 1rem;
+  border: none;
+  background-color: #ffff;
+  box-shadow: 0 0 1rem rgb(0, 0, 0,0.3);
+  font-size: 8vmin;
+  color: #b0413c;
+}
+.resetbtn{
+  height: 50px;
+  width: 130px;
+  color: white;
+  background-color: black;
+  border-radius: 1rem;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#new-btn{
+  height: 50px;
+  width: 130px;
+  color: white;
+  background-color: black;
+  border-radius: 1rem;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#msg{
+  color: #ffffc7;
+  font-size: 5vmin;
+}
+.msg-container{
+  height: 30vmin;
+}
+.hide{
+  display: none;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 70px;
+  width: 100%;
+  background-color:rgb(55, 51, 51);
+  align-items: center;
+  color: azure;
+}
+.logo {
+  margin-right: 700px;
+  margin-left: 30px;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+.btn {
+  margin-left: 20px;
+  cursor: pointer;
+  border: none;
+  background-color:rgb(55, 51, 51);
+  color: white;
+}
+.btn :hover{
+  background-color: brown;
+  color:black;
+}
+.divBtn{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.startbtn{
+  height: 80px;
+  width: 190px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1rem;
+  background-color: darkred;
+  color: white;
+  cursor: pointer;
+}
+.startbtn:hover{
+  background-color: red;
+}
+.startbtn1{
+  height: 80px;
+  width: 190px;
+  margin-top: 20px;
+  border-radius: 5px;
+  border: none;
+  box-shadow: 1rem;
+  background-color: darkred;
+  color: white;
+  cursor: pointer;
+}
+.startbtn1:hover{
+  background-color: red;
+}
+.nextBTN{
+  height: 50px;
+  width: 150px;
+  margin-top: 30px;
+  margin-left: 400px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}
+.nextBTN:hover{
+  background-color: rgb(36, 36, 36);
+}
+.hide1{
+  display: none;
+}
+.hide2{
+  display: none;
+}
